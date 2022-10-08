@@ -21,18 +21,21 @@
         git status
 
 5. Can you commit both of the changed files in a single commit?
-
+Yeah you can 
 6. After you do so, check that you have a clean working directory by running `git status`, and pasting the output here
 
 7. Create a new file `equipment/furniture.txt`. Add content to both `vegetables.txt` and `furniture.txt`
 
 8. How can you commit just one of the changed files?
+I think you can git commit [the files]
 
 9. Check your `git status`
 
 10. What does red text mean in the output of `git status`?
-
+Red shows file is in git repository but latest changes has not been committed
 11. What does green text mean in the output of `git status`?
+Green shows file is in git repository and committed with latest changes
 
 12. How can you make a single file show in both red and green in the output of `git status`?
+By choosing one to commit and the other one not to commit
 
