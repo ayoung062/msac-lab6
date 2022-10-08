@@ -14,4 +14,5 @@
 
 4. Where are the internals of the repository stored? Paste the output of the following command on macOS & Linux.
 
+Repository stored at the root of the working directory in a subdirectory called .git
         ls -lA
