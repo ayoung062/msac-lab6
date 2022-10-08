@@ -3,6 +3,13 @@
 1. Make a commit with a multi line commit message
    (leaving an empty line after the first line)
 
+        git commit -m ""
+
+
+
+
+
+ ""       
 2. View that commit in the log
 
         git log -1
@@ -14,6 +21,7 @@
 *If the log fills your whole terminal, press `q` to exit*
 
 4. View a shortened version of the commit log
+f71c514 Added more fruits to the list and the other excercises
 
         git log --oneline
 
@@ -25,5 +33,9 @@
 
 7. How much of the commit hash do you need to specify? Hint, run `git help log`
 
+4
+
+
 8. How can you show just the last three commit messages?
 
+Git log -3

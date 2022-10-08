@@ -14,14 +14,17 @@
 
 6. Does the following command return anything?
 
+
         git diff --staged
+
+        Will only show the staged area (marked a modified file)
 
 7. Add one of your changed files to the index
 
         git commit add <changed file>
 
 8. What do these commands show?
-
+        Only one file
         git diff
         git diff --staged
 
@@ -30,7 +33,7 @@
         git commit add <other changed file>
 
 10. What do these commands show?
-
+The other changed file
         git diff
         git diff --staged
 
@@ -41,6 +44,8 @@
 13. Create a new file named `clothing.txt`
 
 14. Does the new untracked file show up in git diff?
+
+No it didnt do anything
 
         git diff
 

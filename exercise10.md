@@ -15,6 +15,7 @@
         git cat-file -p <hash>
 
 5. Find the parent's hash in the commit log
+git cat-file -p commit_id
 
 6. Look at the contents of the tree
 
@@ -23,9 +24,11 @@
 7. Examine the contents of one of the blobs
 
 8. What type of object does the parent hash represent?
+The parent hash is a pointer to the parent of the current commit
 
         git cat-file -t <hash>
 
 9. Examine the contents of the parent and its tree
 
 10. Do the trees you looked at have any matching hashes listed?
+They do have matching hashes listed
