@@ -13,7 +13,7 @@
         git config --global user.email "john.doe@somewebsite.com"
 
 4. Why did we use the `--global` flag?  (What does that do?)
-
+        Its a control system that is usedf to store files that can be then accessed either locally or remotly
 
 5. Check your git config to show the changes you have made
 
